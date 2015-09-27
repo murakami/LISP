@@ -10,3 +10,29 @@ import Foundation
 
 print("Hello, World!")
 
+class SExp {
+}
+
+class Nihil: SExp {
+}
+
+class True: SExp {
+}
+
+class Atom: SExp {
+}
+
+class Number: Atom {
+}
+
+class Integer: Number {
+}
+
+class Symbol: Atom {
+}
+
+class ConsCell: SExp {
+}
+
+class Environment {
+}
